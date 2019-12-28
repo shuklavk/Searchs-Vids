@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Search Vids</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+
+    <body>
+        <div id="container">
+            <header>
+                <h1>Search <span>Vids</span></h1>
+                <p>Search all YouTube Videos</p>
+            </header>
+
+            <section>
+                <form id="searchForm" name="searchForm" onsubmit="return search()">
+                    <div class="fieldcontainer">
+                        <input type="search" id="query" class="searchField" placeholder="Search YouTube...">
+                        <input type="submit" name="searchButton" id="searchButton" value="">
+                    </div>
+                </form>
+
+
+                <ul id="results"></ul>
+                <div id="buttons"></div>
+            </section>
+
+            <footer>
+                <p>Copyright &copy; 2019, All Rights Reserved</p>
+            </footer>
+        </div>
+    </body>
+
+</html>
